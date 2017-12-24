@@ -4,7 +4,7 @@ function findMatching(drivers,str){
   return list
 }
 
-function fuzzyMatch(dirvers,str){
+function fuzzyMatch(drivers,str){
   return drivers.filter(function(element){return element.startsWith(str)})
 }
 
